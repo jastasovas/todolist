@@ -1,13 +1,50 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?cs=srgb&dl=pexels-tobiasbjorkli-2113566.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form {
+  padding: 20px 0px 20px 50px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.todolist {
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px 0 20px 0;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  border-radius: 5px;
+  background-color: rgba(227, 252, 252, 0.4);
+  padding: 5px;
+}
+
+ul {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(227, 252, 252, 0.4);
 }
